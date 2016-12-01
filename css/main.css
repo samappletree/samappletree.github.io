@@ -139,6 +139,11 @@ header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
 }
+header .intro-text .extra {
+    font-size: 3em;
+    font-weight: 400;
+    color: #717D8C;
+}
 
 @media(min-width:768px) {
     header .container {
@@ -154,7 +159,7 @@ header .intro-text .skills {
     }
 }
 section {
-	padding: 100px;
+	padding: 95px;
 	margin: -15px;
 	display: block;
 }
@@ -262,16 +267,15 @@ footer h3 {
 }
 
 footer .footer-top {
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: #717D8C;
     padding-bottom: 20px;
+    padding-left: 0;
 }
 
 footer .footer-col {
     margin-bottom: 50px;
-
 }
-
 
 footer .footer-bottom {
     padding: 25px 0;
@@ -279,7 +283,6 @@ footer .footer-bottom {
 }
 .inlineList> li {
 	display: inline-block;
-    padding-left: 5px;
     padding-right: 5px;
 }
 .socialbtn {
@@ -311,6 +314,10 @@ footer .footer-bottom {
 	background: #ffffff;
 }
 
+#contact {
+    padding-left: 300px;
+    padding-right: 300px;
+}
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
@@ -420,27 +427,49 @@ form .row:first-child .floating-label-form-group {
     cursor: pointer;
 }
 .modal-header {
-    padding: 2px 16px;
+    padding: 2px 1px;
     text-align: center;
+    font-size: 24px;
+}
+.modal-header hr{
+    max-height: 20px;
 }
 .modal-body {
     padding: 120px;
     padding-top: 0;
-    font-size: 20px;
 
 }
-
+.modal-body p {
+    font-size: 16px;
+}
 .modal-body img{
     display: block;
     margin: auto;
     width: 80%;
 }
 
-#modal3 a,#modal2 a{
+.modal-body a{
     text-align: center;
     text-decoration: none;
+    color: #41AAC4;
+    font-size: 20px;
 }
 
+.modal-body a:hover {
+    font-size: 22px;
+}
+.portSection {
+    display: inline-block;
+}
+.modal-body .portImg {
+    width: 50%;
+    float: left;
+
+}
+.portText {
+    width: 40%;
+    float: right;
+}
 #portfolio {
     text-align: center;
 }
