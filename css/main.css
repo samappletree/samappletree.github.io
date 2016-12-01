@@ -115,7 +115,7 @@ header {
 }
 
 header .container {
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -315,8 +315,8 @@ footer .footer-bottom {
 }
 
 #contact {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .floating-label-form-group {
     position: relative;
@@ -335,7 +335,13 @@ footer .footer-bottom {
     font-size: 1.5em;
     background: 0 0;
     box-shadow: none!important;
+    width: 100%;
     resize: none;
+}
+
+.floating-label-form-group input:focus,
+.floating-label-form-group textarea:focus {
+    outline: none;
 }
 
 .floating-label-form-group label {
