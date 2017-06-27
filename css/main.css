@@ -63,13 +63,13 @@ h1,h2,h3,h4,h5,h6{
 } 
 #parallax1 {
     /* The image used */
-    background-image: url('../img/parallax/AIF2015.jpg');
+    background-image: url('../img/parallax/IMG_8323.jpg');
     background-position: top;
 }
 
 #parallax2 {
     /* The image used */
-    background-image: url('../img/parallax/board1617.jpg');
+    background-image: url('../img/parallax/DSC00840.JPG');
     background-position: center;
 }
 
@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5,h6{
 
 #parallax4 {
     /* The image used */
-    background-image: url('../img/parallax/191GroupPhoto.JPG');
+    background-image: url('../img/parallax/IMG_6319.JPG');
     background-position: top;
 }
 
