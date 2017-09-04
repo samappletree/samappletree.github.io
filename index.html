@@ -1,181 +1,157 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="img/logo.ico">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="author" content="Samantha Applebaum">
-    <title>Samantha Applebaum</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- Fonts -->
-    <link href="font-awesome/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.ico">
+	<title>Samantha Applebaum</title>
+	<link href="font-awesome/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-</head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-<body>
-	
-<nav class="fixedTop">
-	<div class="container">
-		<div>
-			<ul class="topnav" id="myTopnav">
-                <li><a class="nav-brand" href="#header">Samantha Applebaum</a></li>
-				<li><a href="#contact">Contact</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#about">About</a></li>
-                <li class="icon">
-                    <a href="javascript:void(0);" onclick="myFunction()">☰</a>
-                </li>
-			</ul>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+  	  <a class="navbar-brand" href="index.html">Samantha Applebaum</a>
+  	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  	    <span class="navbar-toggler-icon"></span>
+  	  </button>
+  	  <div class="collapse navbar-collapse" id="navbarNav">
+  	    <ul class="navbar-nav ml-auto">
+  	      <li class="nav-item active">
+  	        <a class="nav-link" href="#">Home</a>
+  	      </li>
+  	      <li class="nav-item">
+  	        <a class="nav-link" href="#about">About</a>
+  	      </li>
+  	      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Work
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="uke.html">The Lee Sisters</a> <a class="dropdown-item" href="medular.html">Medular</a>
+            <a class="dropdown-item" href="dva.html">DVA</a>
+ 			</div>
+        </li>
+  	      <li class="nav-item">
+  	        <a class="nav-link" target="_blank" href="pdfs/Resume.pdf">Resume</a>
+  	      </li>
+  	    </ul>
+  	  </div>
+  	</nav>
+
+
+
+	<section class="jumbotron text-center" id="jumboHead">
+      <div class="container">
+      	<iframe src="//users.instush.com/collage/?cols=7&rows=7&sl=false&user_id=36682006&username=samappletree&sid=-1&susername=-1&tag=-1&stype=mine&bg=transparent&space=true&rd=false&grd=true&gpd=6&drp=true&pin=false&t=9999998gjKK4Cu4qzB2eLO2YcWBsztdYxZ712WwbC-jbaJV4n3LCDRrqk9rSmqpFgRTBp-LTA2Zd9gNRg" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;width:733px;height:733px;border:none;overflow:visible;margin:auto;" ></iframe>
+        <h1 class="jumbotron-heading pt-5">Samantha Applebaum</h1>
+        <p class="lead text-muted">Aspiring UX Designer</p>
+      </div>
+    </section>
+
+
+
+
+    <section class="container extraPad" id="work">
+
+		<div class="row featurette">
+		        <div class="col-md-7">
+		        <h5 class="text-muted">Passion Project</h5>
+		          <h2 class="featurette-heading">Letting the Music Flow</h2>
+		          <p class="lead">A website for a pair of talented Ukelele players.</p>
+		          <a class="btn outlinebtn" href="uke.html" role="button">View Case Study</a>
+		        </div>
+		        <div class="col-md-5 ">
+		          <img class="featurette-image img-fluid mx-auto" src="img/leesisters.jpg" alt="The Lee Sisters">
+		        </div>
+		      </div>
+
+
+	<hr class="white_theme">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+        <h5 class="text-muted">Senior Design Project</h5>
+          <h2 class="featurette-heading">Orchestrating the Operating Room</h2>
+          <p class="lead">Medular is a web application that assists the task of staffing Anesthesiologists and coordinating work within the Operating Rooms at the UCI Medical Center.</p>
+          <a class="btn outlinebtn" href="medular.html" role="button">View Case Study</a>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="img/medular/posterr.jpg" alt="Medular Poster">
+        </div>
+      </div>
+
+    <hr class="white_theme">
+		<div class="row featurette">
+		        <div class="col-md-7">
+		        <h5 class="text-muted">Class Project</h5>
+		          <h2 class="featurette-heading">Creating Stories through Data Visualization</h2>
+		          <p class="lead">DVA is more than just a site to visualize one’s data. It gives the user the power to become a story teller and engage audiences of all backgrounds by being able to share a story with the data provided.</p>
+		          <a class="btn outlinebtn" href="dva.html" role="button">View Case Study</a>
+		        </div>
+		        <div class="col-md-5 ">
+		          <img class="featurette-image img-fluid mx-auto" src="img/dva/poster.png" alt="DVA Poster">
+		        </div>
+		</div>
+     
+</section>
+      <!-- /END THE FEATURETTES -->
+
+
+<section class="jumbotron-fluid" id="about">
+	<div class="container extraPad">
+	<div class="row">
+		<div class="col-md-7 extraPad">
+			<h3 class="display-4">Hello There!</h3>
+			<p class="lead">My name is Samantha, but you can call me Sam, and I am a recent graduate of the University of California, Irvine with a degree in <a href="http://www.informatics.uci.edu/undergrad/bs-informatics/" target="_blank">Informatics</a> and a specialization in Human-Computer Interaction.</p>
+			<p class="lead">My passion lies with creating a better world through better human and computer interactions.</p>
+		</div>
+		<div class="col-md-5">
+			<img class="img-fluid float-right mx-auto" src="img/DSC_8167.jpg">
+
 		</div>
 	</div>
-</nav>
+	</div>
+</section>
 
-<header id="header">
-        <div class="container">
-            <div class="row">
-                <div class="white_theme">
-                    <img class="img-responsive" src="img/DSC_8377.jpg" alt="Samantha Applebaum">
-                    <div class="intro-text">
-                        <span class="name">Samantha Applebaum</span>
-                        <hr class="white_theme">
-                        <span class="extra"><i>Aspiring UX Designer</i></span><br />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-<div class="parallax" id="parallax0"></div>
-<!-- About Section here -->
-	<section id="about" class="gray_theme">
-        <div class="container">
-            <div class="row" >
-                <div >
-                    <h2>About Me</h2>
-                    <hr class="gray_theme">
-                </div>
-            </div>
-            <div class="row">
-                <div >
-                    <p>Hello there! My name is Samantha, but you can call me Sam, and I am a recent graduate of the University of California, Irvine with a Bachelors of Science Informatics degree and a specialization in Human-Computer Interaction. When I'm not busy working on projects or my personal website, you can find me either at the beach or Disneyland. </p>
-                    <h4><a href="pdfs/Resume.pdf">View My Resume</a></h4>
-                    <h4><a href="https://www.linkedin.com/in/samapplebaum">View My LinkedIn</a></h4>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <div class="parallax" id="parallax1"></div>
-
-
-<!-- Skills Section here -->
-
-    <section id="skills" class="white_theme">
-    	<div class="container">
-    		<div class="row">
-    			<h2>Skills</h2>
-    			<hr class="white_theme">
-    		</div>
-    	</div>
-    	<div class="container">
-            <div class="row">
-                <div >
-                    <h3>Design Tools</h3>
-                    <div class="row">
-                        <img class="special" src="img/skills/balsamiq.png" alt="Balsamiq">
-                        <img src="img/skills/sketch.png" alt="Sketch">
-                        <img class="special" src="img/skills/moqups.jpg" alt="moqups">
-                    </div>
-
-                </div>
-            </div>
-            </div>
-    	</div>
-        <div class="container">
-    		<div class="row">
-                <div >
-                    <h3>Front-End Web Development</h3>
-                    <div class="row">
-                        <img  src="img/skills/htmlcssjs.png" alt="HTML5, JavaScript, CSS3">
-
-                    </div>
-
-                </div>
-                </div>
-
-                <div class="container">
-                <div class="row">
-                    <h3>Software Development</h3>
-                    <div>
-                        <img class="special" src="img/skills/python.png" alt="Python">
-                        <img class="special" src="img/skills/Java.png" alt="Java">
-                        <img  class="special" src="img/skills/csharp.png" alt="C#" >
-                        <img class="special" src="img/skills/xaml.png" alt="XAML">
-                    </div>
-                    
-                </div>
-                </div>
-                
-        
-    	
-    </section>
-
-    <div class="parallax" id="parallax2"></div>
-<!-- Portfolio Section here -->
-    <section id="portfolio" class="blue_theme">
-    	<div class="container">
-    		<div class="row">
-    			<h2>Portfolio</h2>
-    			<hr class="blue_theme">
-    		</div>
-            <div class="row">
-            	<img id="img5" class="pimg" alt="OR Orchestrator" src="img/posterr.jpg"/>
-                <img id="img4" class="pimg" alt="INF 133" src="img/133pic.png"/>
-                <img id="img2" class="pimg" alt="EEE Scout" src="img/scout.png" />
-                <img id="img1" class="pimg" alt="DVA" src="img/dva/poster.png"/>
-                <img id="img3" class="pimg" alt="Anteater Express" src="img/aexpress.png"/>
-                
-                
-            </div>
-    	</div>
-    </section>
-
-<div class="parallax" id="parallax4"></div>
 <!-- Contact Section here -->
-    <section id="contact" class="white_theme">
-    	<div class="container">
-    		<div class="row">
-    			<h2>Contact Me</h2>
-    			<hr class="white_theme">
-    		</div>
+    <section id="contact">
+    	<div class="container extraPad">
+    		<h2 class="text-center">Contact Me</h2>
+    		<hr class="white_theme">
             <div class="row">
-                <div>
+                <div class="col-lg-8 mx-auto">
                     <form role="form" action="https://formspree.io/samappletree@gmail.com" method="POST">
-                        <div class="row">
-                            <div class="form-group floating-label-form-group">
-                                <label for="name">Name</label>
-                                <input class="form-control" type="text" name="name" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group floating-label-form-group">
-                                <label for="email">Email Address</label>
-                                <input class="form-control" type="email" name="email" placeholder="Email Address">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group floating-label-form-group">
-                                <label for="message">Message</label>
-                                <textarea placeholder="Message" name="message" class="form-control" rows="5"></textarea>
-                            </div>
-                        </div>
+                        <div class="control-group">
+			                <div class="form-group floating-label-form-group controls">
+			                  <label>Name</label>
+			                  <input class="form-control" id="name" type="text" name="name" placeholder="Name" required data-validation-required-message="Please enter your name.">
+			                  <p class="help-block text-danger"></p>
+			                </div>
+			              </div>
+                       <div class="control-group">
+			                <div class="form-group floating-label-form-group controls">
+			                  <label>Email Address</label>
+			                  <input class="form-control" id="email"name type="email" placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
+			                  <p class="help-block text-danger"></p>
+			                </div>
+			              </div>
+			             
+			              <div class="control-group">
+			                <div class="form-group floating-label-form-group controls">
+			                  <label>Message</label>
+			                  <textarea class="form-control" id="message" rows="5" name="message" placeholder="Message" required data-validation-required-message="Please enter a message."></textarea>
+			                  <p class="help-block text-danger"></p>
+			                </div>
+			              </div>
                         <br>
                         <div class="row">
                             <div class="form-group">
-                                <button type="submit" value="Send" class="formbtn">Send</button>
+                                <button type="submit" class="btn formbtn btn-lg" value="Send">Send</button>
                             </div>
                         </div>
                     </form>
@@ -184,223 +160,28 @@
     	</div>
     </section>
 
-    <footer>
-    	
-	   	<div class="footer-bottom">
-	    	<div class="container">
-	    		<div class="row">
-	    			Copyright © 2017 - Samantha Applebaum
-	    		</div>
-			</div>
-	    </div>
-	    
+    
+
+
+
+<footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>&copy; 2017 Designed & Developed by Samantha Applebaum </p>
+      </div>
     </footer>
 
-<div id="modal1" class="modal white_theme">
-    <div class="modal-content">
-        <div class="modal-header">
-            <span class="close">x</span>
-            <h2>Data Visualization Application</h2>
-            <hr class="white_theme">
-            <h6>School Project: Apr 2016 – Jun 2016</h6>
-        </div>
-        <div class="modal-body">
 
-            <p>As part of a class project, we had the opportunity to work for a real world client. My group built a data visualization application that allowed users to tell their data stories using a notebook style format. In this project, I acted as the UI/UX designer and created all the mockups for the project that are pictured below.</p>
 
-            <h2>Site Map</h2>
-            <img src="img/dva/sitemap.png" />
-            
-            <h2>User Manual Page</h2>
-            <img src="img/dva/usermanual.png" />
-            <p>This is the “Help” page or User manual page and this is a page requested specifically from the project sponsor in wanting a sort of user guide that gives instructions or help on how to fully utilize the site.</p>
+    <!-- Optional JavaScript -->
 
-            <h2>Welcome Page</h2>
-            <img src="img/dva/welcomepage.png" />
-            <p>This mockup represents the welcome page of our site, this is the first page a user will see when they first enter the site.</p>
-            <h2>Sign up Page</h2>
-            <img src="img/dva/signup.png" />
-            
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
-            <h2>Sign in Page</h2>
-            <img src="img/dva/signin.png" />
-
-            <h2>My Account Page</h2>
-            <img src="img/dva/account.png" />
-            <p>This is a mockup of the “My Account” page. Once a user has logged into their account, they can access and change their settings as needed.</p>
-
-            <h2>Main Workspace Page</h2>
-            <img src="img/dva/workspace.png" />
-            <p>This is our main workspace page of our site. This is where users can create and edit the visualization of their choice based on the data set they choose to work with. The new workspace page is a notebook style, where users can add (append buttons), edit(little pencil button), move up and down(up and down arrows), minimize(arrows facing each other) and remove( the ‘x’ button) cells.</p>
-
-            <h2>Public/My Gallery Pages</h2>
-            <img src="img/dva/gallery.png"/>
-            <p>This is where users will be able to view all of the the visualizations they have already made. They will have the option of being able to look at a public gallery where all users can share with other users the visualizations they have made through our site.</p>
-        </div>
-    </div>
-</div>
-
-<div id="modal2" class="modal white_theme">
-    <div class="modal-content">
-        <div class="modal-header">
-            <span class="close">x</span>
-            <h2>EEE Scout</h2>
-            <hr class="white_theme">
-            <h6>School Project</h6>
-        </div>
-        <div class="modal-body">
-            <img src="img/scout.png"/>
-            <p>In my Human-Computer Interaction Project class, my group was tasked with doing a usability evaluation and recommendations for our clients who created UCI's EEE Scout.</p>
-            <p>EEE Scout is a web application for building forms, accepting submission of completed forms, and reviewing submissions. It was designed specifically for use in the University of California, Irvine (UCI) community. As it requires a UCInet identification to access the site, it is accessible only by UCI students, faculty, and staff.</p>
-            <p>As both a group and indiviually, we completed lots of research, Individual User and Group Testing , Heurisics Evaluations, and Surveys. Once we completed all our research and evaluations, we created a report on our findings and included our final recommendations based on our research and testing.</p>
-            <a href="pdfs/FinalReport.pdf" target="_blank">Click Here to Read the Final Report</a>
-        </div>
-    </div>
-</div>
-
-<div id="modal3" class="modal white_theme">
-    <div class="modal-content">
-        <div class="modal-header">
-            <span class="close">x</span>
-            <h2>Anteater Express</h2>
-            <hr class="white_theme">
-            <h6>School Project</h6>
-
-        </div>
-        <div class="modal-body">
-            <img src="img/aexpress.png" />
-            <p> In my Introduction to Human-Computer Interaction class, our groups were allowed to choose one of our least favorite interfaces and do a complete set of Evaluation and Redeign for the Interface. My group choose the Anteater Express website.</p>
-            <p>Anteater Express is the shuttles that drive around UCI's campus and some of the on-campus housing. Several members of my group including myself have lived in some of the on-campus housing communities and use the shuttles as way to get onto campus. Having personal experience with understanding how to ride the shuttles and figure out the difference between routes, we all found that the shuttle's website was not the greatest.</p>
-            <p>In our deliverables, we used many different ways to evalute the site such as Heuristic Evaluations, Interviews, Personas, Scenarios, Use Cases and many more. After doing lots of evaluation exercises, we as a group did a redesign based on our observations and research of the usability of the site. In our redesigning process, we did storyboarding, sketching and created mockups.</p>
-            <a href="pdfs/FinalDeliverable.pdf" target="_blank">Click Here to Read through the Final Deliverable</a>
-        </div>
-    </div>
-</div>
-
-<div id="modal4" class="modal white_theme">
-    <div class="modal-content">
-        <div class="modal-header">
-            <span class="close">x</span>
-            <h2>Personal Portfolio Website</h2>
-            <hr class="white_theme" >
-            <h6>Personal and School Project</h6>
-
-        </div>
-        <div class="modal-body">
-            <img src="img/133pic.png" />
-            <div>
-            	<h1>User Research</h1>
-
-            	<h2>User Interviews</h2>
-            		<div class="row portSection">
-            			<img class="portImg" src="img/userInterviews.png" />
-            			<div class="portText">
-            				<p>User Interviews help to understand the different user's point of views on the subject matter. For this project, we focused on understanding the user by asking them about their current role as well as their career goals. We also discussed the user's point of view on portfolio websites and what kind of information they expect to see.</p>
-            				<a href="assets/User Interview.pdf" target="_blank">Click Here to View the User Interviews</a>
-            			</div>
-            		</div>
-            	<h2>Competitor Analysis</h2>
-            		<div class="row portSection">
-            			<img class="portImg" src="img/competitorAnalysis.png" />
-            			<div class="portText">
-            				<p>A competitor analysis is a way of comparing what already exists out in the world with the type of product you are trying to build. For my portfolio, I focused on comparing the different portfolio websites that I have encountered, specifically the ones that had people who were interested in the same types of jobs I was looking at. Seeing what is out there and my "competition" helped me build a better site that helps me stand out compared to those I was researching.</p>
-            				<a href="assets/Competitor Analysis.pdf" target="_blank">Click Here to View the Competitor Analysis</a>
-            			</div>
-            			</div>
-            	<h2>Feature Value Matrix</h2>
-            		<div class="row portSection">
-            			<img class="portImg" src="img/featureValueMatrix.png" />
-            			<div class="portText">
-            				<p>A feature value matrix is a list of features being compared against each other based on their user value, business value, and development effort. My feature value matrix helped me to prioritize the features I wanted to include in my portfolio. For my portfolio, I wanted to focus on showcasing who I am and my skills and experiences. I also had wanted to make it easy for people to either find and connect with me on social media or send me a message without much effort on their part(hence the contact form).</p>
-            				<a href="assets/Feature Value Matrix.pdf" target="_blank">Click Here to View the Feature Value Matrix</a>
-            			</div>
-            		</div>
-            	<h2>Feature Prioritization</h2>
-            		<div class="row portSection">
-            			<img class="portImg" src="img/featurePrioritization.png" />
-            			<div class="portText">
-            				<p>After listing out the features I wanted to include in my portfolio in the feature value matrix, I created this feature prioritization. These visualizations helped me to fully visualize how certain features were more of a priority to me than others when it came to building my portfolio.</p>
-            			<a href="assets/Feature Prioritization.pdf" target="_blank">Click Here to View the Feature Prioritization</a>
-            			</div>
-            		</div>
-            </div>
-            <div>
-            	<h1>User Testing</h1>
-            	<h2>User Stories</h2>
-            		<div class="row portSection">
-            			<img class="portImg" src="img/userStories.png" />
-            			<div class="portText">
-            				<p>User stories are real-life scenarios of how a specific kind of user may interact with your product or a certain feature. When I was creating my user stories, I thought about the main types of users who would be looking at my portfolio and what kind of information they would be focused on finding. For example, I thought about how the main purpose of my site is to help showcase my skills and expertise in order to get a job, which meant that my main audience would be Hiring managers or recruiters trying to gain insight into who I am and if my skills match those of what they are looking for.</p>
-            				<a href="assets/User Stories.pdf" target="_blank">Click Here to View the User Stories</a>
-            			</div>
-            		</div>
-            	<h2>Cognitive Walkthrough</h2>
-            		<div class="row portSection">
-            			<img class="portImg" src="img/cognitiveWalkthrough.png" />
-            			<div class="portText">
-            				<p>A cognitive walkthrough is where you take a user and ask them to perform a series of tasks in order to observe how they interact with a product. This is a great way to see how real users interact with the product and if those interactions were that of what you expected or if they found the tasks difficult. While doing the walkthroughs for my own project was helpful in finding important bugs and general perceptions of my site, the biggest challenge I found was that I was only able to do the walkthroughs with fellow classmates due to time constraints when I would have preferred to have seen recruiters or hiring managers interactions and views of my portfolio.</p>
-            				<a href="assets/Cognitive Walkthrough.pdf" target="_blank">Click Here to View the Cognitive Walkthroughs</a>
-            			</div>
-            		</div>
-            	<h2>User Tests</h2>
-            		<div class="row portSection">
-            			<img class="portImg" src="img/userTest.png" />
-            			<div class="portText">
-            				<p>For testing my portfolio with users, I decided to do two types of tests, click and question. The click test gives users a simple task to find a specific item and click where they think they would find that item. I had given my users the task of finding my skills, where the hope is that they would click on skills tab of my navigation bar.  For the other test, I did a question test, where users were asked questions about a specific task or piece of information. In my test, I asked users what kind of information they would expect to find on the page if they were a hiring manager. The responses to both tests helped me understand if my expectations for the interactions with my site were correct or not.</p>
-            				<p><a href="https://usabilityhub.com/tests/4992ca049a3c/results/aafc6a011293" target="_blank">Click Here to View the First User Test</a></p>
-            				<p><a href="https://usabilityhub.com/tests/b9e16a8b28c5/results/37d8c566aaa5" target="_blank">Click Here to View the Second User Test</a></p>
-
-            			</div>
-            		</div>
-            </div>
-            <div>
-            	<h1>Summary of Findings</h1>
-            	<p>Once I completed all of the user research and the user testing, I found that I gained lots of knowledge about portfolios, their meaning and expectations for certain groups of users, as well as problems or bugs in my own portfolio and some small fixes that I would want to change. In terms of better understanding my user's better as well as my competition, I had the opportunity to talk to several developers about not only what they do and where they are in their career but to gain an insight into understanding their expectations for a web portfolio. I found it interesting that the few people I was able to interview were at very different stages in their career and saw things in different lights. The students were very focused on trying to gain a job to start their career, while my career people were either looking for a promotion at their job or trying to bring in other people to help development. The one challenge I found with this was that I wasn't quite able to gain a recruiter or hiring manager's position on the subjects, I had reached out to a few that I knew but received no responses back. I think that if I had been able to gain at least one recruiter/hiring manager's response, I would have received a whole other perception on portfolios that I don't know about.</p>
-            	<p>User testing, on the other hand, helped me to see where I needed to fix my own portfolio. I was lucky enough to have very honest friends to tell me what exactly they liked and didn't like about my site. Most of the feedback I received was positive, they liked the color scheme and the flow of the site, however, I was able to gain insight into where I needed improvements. There were a few bugs in my code that were very visible such as the background behind my modals would scroll. Or the navigation bar is a little wonky and off centered. There was one thing I realized after completing all of my user testings was that I was only testing my desktop version. I completely left out any testing on the mobile version of the site. I think that if I had tested with at least one user on the mobile version, I could gain better insight into what exactly needs to be fixed on the responsive end so that my site looks great not just on the desktop, but mobile and tablet as well.</p>
-            </div>
-            <div>
-            	<h1>Incorporation of Findings</h1>
-            	<p>Like I had mentioned in my summary, most of the feedback I was received was very positive overall with good reactions to my site, but that doesn't mean there aren't still things that I would fix or change with my portfolio. In terms of small or minor fixes, I plan to adjust the spacing between the sections, while white space is great for design, based on the feedback, some of my sections had a little too much space. I also plan to stop the instance when the background behind my project's pop-up modals start scrolling. This scrolling issue is distracting and takes the user away from focusing on my project experience. Another fix I hope to implement is that of opening up the contact form character limit and getting rid of the natural text input box in order to make my site match itself better. I also plan to do some minor adjustments here or there that are more personal little fixes that I want to be fixed.</p>
-            	<p>While there are several little fixes that I hope to make, there is one area that I believe needs a lot of work, my site's mobile responsiveness. I made the mistake of not testing the mobile version with users, but after taking a look myself I realized that the responsiveness of my site needs a lot of work. I had set up the basic structure for it, but there are lots of little details that need to be adjusted in order to make my site more appealing on mobile devices. For instance combining the navigation bar into a single drop down on mobile will help alleviate some of the awkward spacing it currently takes up. I also need to adjust the spacing and sizing of all my sections in order to help them fit better in the smaller setting of mobile devices. The mobile responsiveness needs a lot of help, and while I may not be able to finish it before the due date of this project, I do hope to find time in the immediate future to do the best I can with it.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="modal5" class="modal white_theme">
-    <div class="modal-content">
-        <div class="modal-header">
-            <span class="close">x</span>
-            <h2>UCI Health OR Management Application</h2>
-            <hr class="white_theme">
-            <h6>Senior Design Project: Sep 2016 – Mar 2017</h6>
-        </div>
-        <div class="modal-body">
-            <img src="img/posterr.jpg"/>
-            <p>The Operating Room (OR) Orchestrator is a highly scalable web application that allows OR Managers to provision and de-provision departmental personnel accordingly. The Orchestrator functionality offers a birds-eye view of the entire operating room infrastructure with the capability to record profile-specific user-input to make changes to the virtualized “grease board”. A dynamic human-resources compliant break-system offers personnel rest when they need it most; it also reduces operational inefficiencies with regards to how the operating rooms are being utilized. The OR Orchestrator is designed with HIPAA compliance as the basis for all security and privacy-related functional requirements, so man-in-the-middle, cross-site-scripting, and other OWASP web vulnerabilities are a thing of the past.</p>
-
-			<p>The project was implemented using HTML, CSS, JavaScript, and BootStrap for the front-end while the back-end was implemented using PHP, MySQL, Apache Web Server and AWS services.</p>
-
-			<a href="http://www.or-orchestrator.com/" target="_blank">Click Here to View the website</a>
-			<!-- <br>
-			<img src="img/191GroupPhoto.JPG"/>
-			<p>Team Photo with Project Sponsor Govind Rajan</p> -->
-        </div>
-    </div>
-</div>
-
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-82931435-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-</body>
-
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
 </html>
