@@ -90,6 +90,19 @@ hr.gray_theme:after {
     background-color: #DDDDDD;
 }
 
+.fa {
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #41AAC4;
+}
+
 .outlinebtn {
 	border: solid 2px #2c3e50;
 	font-size: 20px;
@@ -102,9 +115,9 @@ hr.gray_theme:after {
 .outlinebtn:focus,
 .outlinebtn:active,
 .outlinebtn.active {
-	border: solid 2px #ffffff;
+	border: solid 2px #2c3e50;
 	color: #BDB69C;
-	background: #ffffff;
+	background: #2c3e50;
 }
 
 .floating-label-form-group {
@@ -159,7 +172,7 @@ form .row:first-child .floating-label-form-group {
     float: right;
     background-color: #2c3e50;
     color: #ffffff;
-    border: none;
+    border: solid 2px #2c3e50;
     font-size: 20px;
     border-radius: 8px;
     padding: 12px 32px;
@@ -168,6 +181,7 @@ form .row:first-child .floating-label-form-group {
 .formbtn:hover {
     background-color: #ffffff;
     color: #2c3e50;
+    border: solid 2px #2c3e50;
 }
 .formbtn:active {
     background-color: #80CEB9;
