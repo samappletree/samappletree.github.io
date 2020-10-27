@@ -1,0 +1,323 @@
+//-------------------------------
+// Variables
+//-------------------------------
+
+$primary-color: #2c3e50;
+$primary-color-hover: #486684;
+$secondary-color: #2c3e50;
+$secondary-color-hover: #486684;
+$accent-color: #41AAC4;
+$accent-color-hover: #73C0D4;
+
+
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: $accent-color;
+}
+
+a:hover {
+    color: $accent-color-hover;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: $primary-color;
+}
+
+.extraPad {
+    padding: 3rem 1.5rem;
+}
+
+#jumboHead {
+    background-color: #fff;
+    color: $primary-color;
+    // background-image: url("../img/getty.jpg");
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+    // #headContain img {
+    //     border-radius: 80%;
+    //     width: 40%;
+    // }
+}
+
+#headContain {
+    padding-top: 8em;
+
+    .lead {
+        color: $accent-color;
+    }
+}
+
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+#about {
+    padding-bottom: 18rem;
+
+    h3 {
+        color: $accent-color;
+    }
+}
+
+#about img {
+    border-radius: 70%;
+    width: 80%;
+}
+
+#skills {
+    text-align: center;
+    padding-bottom: 5rem;
+
+    .card-group {
+        margin-top: -15rem;
+        
+    }
+
+    #leftSkillCard {
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+        box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 0 #E6ECF8;
+    }
+
+    #rightSkillCard {
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+        box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 0 #E6ECF8;
+    }
+
+    .icon {
+        color: $accent-color;
+        font-size: 30pt;
+        margin: 0 auto 1.5em;
+    }
+
+    h6 {
+        color: $accent-color;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .card-body {
+        padding: 80px 50px;
+    }
+
+    .tools {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+
+#work {
+    #workHeader {
+        text-align: center;
+        padding-bottom: 5em;
+    }
+}
+
+.white_theme {
+    background-color: #ffffff;
+    color: $primary-color;
+}
+
+
+.gray_theme {
+    color: $primary-color;
+    background: #DDDDDD;
+}
+
+hr {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 200px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.white_theme {
+    border-color: $accent-color;
+}
+
+hr.white_theme:after {
+    color: $accent-color;
+    background-color: #ffffff;
+}
+
+hr.gray_theme {
+    border-color: $accent-color;
+}
+
+hr.gray_theme:after {
+    color: $accent-color;
+    background-color: #DDDDDD;
+}
+
+
+hr:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    z-index: 0;
+}
+
+
+
+
+.outlinebtn {
+    border: solid 2px $primary-color;
+    font-size: 20px;
+    color: $primary-color;
+    background: 0 0;
+    transition: all .5s ease-in-out;
+}
+
+.outlinebtn:hover,
+.outlinebtn:focus,
+.outlinebtn:active,
+.outlinebtn.active {
+    border: solid 2px $accent-color-hover;
+    color: $primary-color;
+    background: $accent-color-hover;
+}
+
+footer {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: $primary-color;
+    color: #fff;
+
+    img{
+        padding-right: 1px;
+    }
+    img,
+    p, h6 {
+        padding: 2rem;
+    }
+
+    .fa {
+        font-size: 40px;
+        width: 50px;
+        transition: all .5s ease-in-out;
+    }
+
+    .fa:hover {
+        color: $accent-color-hover;
+    }
+
+}
+
+// .floating-label-form-group {
+//     position: relative;
+//     margin-bottom: 0;
+//     padding-bottom: 0.5em;
+//     border-bottom: 1px solid #DDDDDD;
+// }
+
+// .floating-label-form-group input,
+// .floating-label-form-group textarea {
+//     font-size: 1.5em;
+//     position: relative;
+//     z-index: 1;
+//     padding-right: 0;
+//     padding-left: 0;
+//     resize: none;
+//     border: none;
+//     border-radius: 0;
+//     background: none;
+//     box-shadow: none !important;
+// }
+
+// .floating-label-form-group label {
+//     font-size: 0.85em;
+//     line-height: 1.764705882em;
+//     position: relative;
+//     z-index: 0;
+//     top: 2em;
+//     display: block;
+//     margin: 0;
+//     -webkit-transition: top 0.3s ease, opacity 0.3s ease;
+//     -moz-transition: top 0.3s ease, opacity 0.3s ease;
+//     -ms-transition: top 0.3s ease, opacity 0.3s ease;
+//     transition: top 0.3s ease, opacity 0.3s ease;
+//     vertical-align: middle;
+//     opacity: 0;
+// }
+
+// .floating-label-form-group:not(:first-child) {
+//     padding-left: 14px;
+//     border-left: 1px solid #eeeeee;
+// }
+
+// .floating-label-form-group-with-value label {
+//     top: 0;
+//     opacity: 1;
+// }
+
+// .floating-label-form-group-with-focus label {
+//     color: $accent-color;
+// }
+
+// form .row:first-child .floating-label-form-group {
+//     border-top: 1px solid #eeeeee;
+// }
+
+
+// .formbtn {
+//     outline: 0;
+//     float: right;
+//     background-color: $accent-color;
+//     color: $primary-color;
+//     border: solid 2px $primary-color;
+//     font-size: 20px;
+//     border-radius: 8px;
+//     padding: 12px 32px;
+// }
+
+// .formbtn:hover {
+//     background-color: $primary-color;
+//     color: $accent-color-hover;
+//     border: solid 2px $accent-color-hover;
+// }
+
+// .formbtn:active {
+//     background-color: #80CEB9;
+//     color: $primary-color;
+//     box-shadow: 0 2px #666;
+//     transform: translateY(4px);
+// }
+
+.jumbo {
+    background-color: #DDDDDD;
+}
+
+.img-responsive {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 80%;
+    width: 20%;
+}
